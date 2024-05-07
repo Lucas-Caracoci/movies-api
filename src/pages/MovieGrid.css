@@ -60,7 +60,7 @@
         font-size: 36px;
     }
 }
-@media (max-width:350px){
+@media (max-width:450px){
     .container .title{
         font-size: 32px;
     }

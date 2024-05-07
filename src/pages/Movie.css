@@ -136,8 +136,6 @@
     .tagline{
         margin: 20px 0;
     }
-}
-@media (max-width:375px){
     .movie{
         height:130% 
     }
