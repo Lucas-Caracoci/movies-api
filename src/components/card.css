@@ -76,9 +76,9 @@
         
     }
 }
-@media (max-width:350px){
+@media (max-width:375px){
     .movie-card{
-        width: calc(100% - 100px);
+        width: calc(80% - 50px);
         margin: 15px 0px;
         height: 400px;
       }
