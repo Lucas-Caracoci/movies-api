@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    background-color: #9700009d;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    
+}
+
+.lupa {
+    transform: scale(2.5);
+    cursor: pointer;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+    gap: 15px;
+    width: 350px;
+    transition: .3s;
+}
+.l{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    gap: 5px;
+}
+input{
+    width: 310px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+@media (max-width:450px){
+    input{
+        width: 210px;
+        
+    }
+    form{
+        width: 250px;
+        
+    }
+}
