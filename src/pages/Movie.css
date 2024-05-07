@@ -7,6 +7,7 @@
     padding: 30px;
     
     
+    
 }
 .movie-container{
     background-color: rgba(68, 68, 68, 0.548);
@@ -128,5 +129,21 @@
     .movie{
         font-size: 14px;
     }
+    .text-info{
+        gap: 40px;
+        
+    }
+    .tagline{
+        margin: 20px 0;
+    }
 }
-
+@media (max-width:375px){
+    .movie{
+        height:130% 
+    }
+    .overview{
+        max-height: 300px;
+        overflow-y: scroll;
+        margin-bottom: 20px;
+    }
+}
